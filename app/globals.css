@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg-gradient: radial-gradient(1200px 600px at 10% 0%, rgba(255,204,41,.25), rgba(255,204,41,0) 60%),
+                 radial-gradient(1000px 500px at 90% 100%, rgba(255,255,255,.15), rgba(255,255,255,0) 60%);
+}
+
+html, body, :root {
+  height: 100%;
+}
+
+body{
+  @apply bg-brand-black text-white antialiased;
+  background-image: var(--bg-gradient);
+}
+
+button, a{
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sr-only-focusable:focus{
+  position: static !important;
+  width: auto; height: auto;
+}
