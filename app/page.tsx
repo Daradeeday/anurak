@@ -4,7 +4,8 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Card from '@/components/Card';
 
-export default function Page(): JSX.Element {
+export default function Page() {
+
   return (
     <main className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image with gradient overlay */}
