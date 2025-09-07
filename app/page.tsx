@@ -22,7 +22,7 @@ export default function Page(){
 
       {/* Floating accent blobs */}
       <motion.div
-        aria-hidden
++   aria-hidden="true"
         className='absolute -z-0 w-[70vw] h-[70vw] max-w-[900px] max-h-[900px] rounded-full bg-yellow-400/20 blur-3xl'
         initial={{ scale: .8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
