@@ -50,17 +50,16 @@ export default function Page() {
             className="text-center md:text-left"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
-              Hunt with friends.<br className="hidden sm:block" />Anywhere.
+              Anurak.<br className="hidden sm:block" />Tns13.
             </h2>
             <p className="mt-4 text-white/80 max-w-xl mx-auto md:mx-0">
-              A bold, animated landing built for scale. Responsive for phones, tablets and desktops.
-              Deployed on Vercel with best-practice performance in mind.
+              Step back into the mountains, smiles, and team spirit of the Conservation Camp – Triam Udom Suksa Nomklao Nakhon Ratchasima. Browse the gallery and download the photos that captured your best moments.
             </p>
             <div className="mt-6 flex flex-wrap gap-3 justify-center md:justify-start">
-              <Badge>Responsive</Badge>
-              <Badge>Animated</Badge>
-              <Badge>Optimized</Badge>
-              <Badge>Vercel-Ready</Badge>
+              <Badge>Anurak</Badge>
+              <Badge>Tns13</Badge>
+              <Badge>Photo</Badge>
+              <Badge>Family</Badge>
             </div>
           </motion.div>
         </div>
